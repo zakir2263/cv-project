@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.header-img{
+    border: 3px solid rgb(202, 162, 162);
+    border-radius: 50%;
+    width: 130px;
+    height: 120px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color: teal;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+    font-weight: bold;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-both{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* Personal section start */
+
+.personal-section{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.section-hr{
+    border: 1px solid black;
+    border-bottom: none;
+}
+.right-div1{
+    width: 42%;
+    float: left;
+}
+.right-div2{
+    width: 40%;
+    float: right;
+}
+/* Personal section start */
+
+/*footer section start*/
+.footer-section{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    margin:20px ;
+}
+.footer-section p{
+    color: white;
+    margin-top:30px ;
+}
+
+
